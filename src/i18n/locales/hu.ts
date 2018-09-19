@@ -44,22 +44,22 @@ export class hu implements Locale {
     return "minden másodpercben";
   }
   everyX0Seconds() {
-    return "minden %s másodpercben";
+    return "minden %s. másodpercben";
   }
   secondsX0ThroughX1PastTheMinute() {
-    return "seconds %s through %s past the minute";
+    return "%s és %s másodpercek között a percben";
   }
   atX0SecondsPastTheMinute() {
-    return "at %s seconds past the minute";
+    return "a %s. másodpercben";
   }
   everyX0Minutes() {
-    return "minden %s percben";
+    return "minden %s. percben";
   }
   minutesX0ThroughX1PastTheHour() {
-    return "minutes %s through %s past the hour";
+    return "%s és %s percek között az órában";
   }
   atX0MinutesPastTheHour() {
-    return "at %s minutes past the hour";
+    return "%s perccel az óra kezdete után";
   }
   everyX0Hours() {
     return "minden %s óra";
@@ -68,7 +68,7 @@ export class hu implements Locale {
     return "%s és %s között";
   }
   atX0() {
-    return "%s időközönként";
+    return "%s órakor"; // furi
   }
   commaEveryDay() {
     return ", minden nap";
