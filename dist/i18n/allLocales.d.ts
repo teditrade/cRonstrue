@@ -1,4 +1,5 @@
 export { en } from "./locales/en";
+export { hu } from "./locales/hu";
 export { de } from "./locales/de";
 export { es } from "./locales/es";
 export { fr } from "./locales/fr";

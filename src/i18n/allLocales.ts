@@ -1,4 +1,5 @@
 export { en } from "./locales/en"; // English
+export { hu } from "./locales/hu"; // Hungarian
 export { de } from "./locales/de"; // German
 export { es } from "./locales/es"; // Spanish
 export { fr } from "./locales/fr"; // French
